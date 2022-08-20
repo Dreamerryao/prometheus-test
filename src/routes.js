@@ -5,19 +5,19 @@ import Home from "./Pages/Home"
 
 export default [
   {
-    path: '/error',
+    path: '/prometheus-test/error',
     element: <ThrowError />
   },
   {
-    path: '/http-request',
+    path: '/prometheus-test/http-request',
     element: <HttpRequest />
   },
   {
-    path: '/home',
+    path: '/prometheus-test/home',
     element: <Home />
   },
   {
-    path:'/',
-    element:<Navigate to="/home"/>
+    path:'/prometheus-test/',
+    element:<Navigate to="/prometheus-test/home"/>
   }
 ];

@@ -10,7 +10,7 @@ const App = () => {
       <aside className='side-bar'>
         <header>prometheus</header>
         <main>
-          <NavLink className={getClassName} to="/prometheus-test">Home</NavLink>
+          <NavLink className={getClassName} to="/prometheus-test/home">Home</NavLink>
           <NavLink className={getClassName} to="/prometheus-test/error">Error</NavLink>
           <NavLink className={getClassName} to="/prometheus-test/http-request">HTTP Request</NavLink>
         </main>
